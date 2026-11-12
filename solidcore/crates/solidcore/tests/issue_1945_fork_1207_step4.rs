@@ -148,7 +148,6 @@ fn sc_fixes(k: &mut Kernel) {
     k.fixes.delete_vertex_joins_seam_iso_curve = true;
     k.fixes.boolean_new_face_closure_both_sides = true;
     k.fixes.glue_vertices_joins_every_region = true;
-    k.fixes.box_face_failures_propagate = true;
     k.fixes.ellipse_adjust_step_interval_keeps_turns = true;
     k.fixes.fillet_removal_takes_ring_fillets = true;
 }
